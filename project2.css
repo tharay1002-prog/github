@@ -1,0 +1,22 @@
+h1{ 
+    color: rgb(106, 39, 39);
+    font-family: 'Times New Roman', Times, serif;
+    font-size:200%;
+    background-color: blanchedalmond;
+    text-align: center;
+    
+    }
+    body{
+        background-color: blanchedalmond;
+        
+    }
+ hr{
+    color: blanchedalmond;
+ }
+ hr{
+    height: 4px;
+    background: black;
+    border: none;
+    width: 90%;
+    margin-left: 10px;
+ }

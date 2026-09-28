@@ -1,0 +1,13 @@
+body{
+    background-image: url(book5.jpg);
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+#frame1, #frame2 {
+    width: 40%;
+    height: 400px;
+    border: 2px solid #333;
+    margin: 20px;
+    display: inline-block;
+    overflow: hidden;
+}

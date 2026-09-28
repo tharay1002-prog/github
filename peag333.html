@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <link rel="stylesheet" type="text/css" href="project3.css">
+    <a href="page1.html"> <img src="book4.jpg" alt="workplace" usemap="#workmap" width="200" height="200" align="left">  </a>
+    <title> متجر كتب</title>
+</head>
+<body>
+    <center>  
+        <h1> اقرأ </h1>
+        <p> الأسعار والعروض </p>
+        <br><br><br><br><br><br><br>
+        
+        <table border="1">
+            <tr>
+                <th> متوفر او غير متوفر </th>
+                <th> السعر </th>
+                <th> اسم الكتاب </th>
+            </tr>
+            <tr>
+                <td rowspan="2"> متوفر </td>
+                <td> 84ر.س</td>
+                <td> خوف </td>
+            </tr>
+            <tr>
+                <td> 59.99ر.س</td>
+                <td> شمس منتصف الليل </td>
+            </tr>
+            <tr>
+                <td rowspan="2"> غير متوفر </td>
+                <td> 29ر.س</td>
+                <td> انتريستا </td>
+            </tr>
+            <tr>
+                <td> 29ر.س</td>
+                <td> دارا </td>
+            </tr>
+
+            <tr>
+                <td colspan="3">
+                    <?php
+                    $t = date("الاسعار"); 
+                    if (84 = "84") {
+                        echo "حوف";
+                    } elseif (59.99 = "59.99") {
+                        echo "شمس منتصف الليل";
+                    } elseif (29 < "29") {
+                        echo "انتريستا";
+                    } else {
+                        echo "دارا";
+                    }
+                    ?>
+                </td>
+            </tr>
+        </table>
+        
+        <p>
+        <table border="1">
+            <tr>
+                <th colspan="2">  العروض  </th>
+            </tr>
+            <tr>
+                <th rowspan="2"> 50% </th>
+                <td> الثلاثاء </td>
+            </tr>
+            <tr>
+                <td> الجمعة </td>
+            </tr> 
+        </table>
+        </p>
+    </center>
+</body>
+</html>

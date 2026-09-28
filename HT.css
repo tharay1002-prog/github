@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: 'Tajawal', sans-serif;
+    background-color: white;
+    direction: rtl;
+  }
+  
+  /* الشريط العلوي */
+  .navbar {
+    background-color: #769890;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .navbar nav a {
+    color: black;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 18px;
+  }
+  
+  .home-icon img {
+    width: 25px;
+    height: 25px;
+  }
+  
+  /* الشعار */
+  .logo {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .logo img {
+    height: 200px; /* تحديد ارتفاع الشعار */
+    width: auto; /* عرض الشعار يتناسب مع الارتفاع */
+  }
+  /* عنوان الصفحة */
+  .manasik-title {
+    text-align: center;
+    margin-bottom: 10px;
+    
+  }
+  
+  .manasik-title h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #7c9c91;
+  }
+  
+  /* المحتوى */
+  .content-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 60px;
+    gap: 40px;
+  }
+  
+  /* قائمة المناسك */
+  .steps-list {
+    width: 260px;
+    margin-top: 0px;
+  }
+  
+  .steps {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .step {
+    background-color: #7c9c91;
+    color: white;
+    padding: 10px 30px;
+    margin: 8px 0;
+    border-radius: 20px;
+    font-size: 16px;
+    text-align: right;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    transition: background-color 0.3s; box-shadow: 0,6s;
+    margin-top: 15px;
+  }
+
+  .step:hover {
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+    background-color: #5a7b70;
+  }
+  
+  
+  /* النص */
+  .content-text {
+    flex-grow: 1;
+  }
+  
+  .title {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000;
+  }
+  
+  .manasik-info {
+    display: none;
+  }
+  
+  .manasik-info p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #333;
+    max-width: 700px;
+  }
